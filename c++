@@ -25,3 +25,11 @@ int main(){
 
     return 0;
 }
+
+void Log_in_panel(){
+    cout << "\tWelcome to the Central-Bank\n"<<endl;
+    cout << "Enter «Log» to log in to your account"<<endl;
+    cout << "Enter «Reg» For registreation \n"<<endl;
+    cout << "Enter your choice -> ";
+    cin >> choice;
+}
